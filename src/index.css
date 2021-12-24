@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    /* bottom, image */ url("/src/assets/images/iiitk.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
