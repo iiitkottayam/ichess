@@ -18,7 +18,9 @@
 .body {
   overflow-x: hidden;
 }
-
+.show {
+  display: inline;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
