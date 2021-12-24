@@ -8,9 +8,9 @@ import {
 } from "react-icons/ai";
 const Footer = () => {
   return (
-    <div className="w-screen bg-green-400 text-center text-black">
+    <div className="w-full bg-green-400 text-center text-black">
       {/* contact us part of footer  */}
-      <div className="w-screen bg-white flex-col p-10">
+      <div className="w-full bg-white flex-col p-10">
         {/* contact us */}
         <p className="font-bold ">CONTACT US</p>
         {/* Green line */}
@@ -34,7 +34,7 @@ const Footer = () => {
       {/* map comes here */}
       <div></div>
       {/* credits */}
-      <div className="w-screen grid grid-rows-1 sm:grid-flow-col justify-items-center items-center p-10 font-semibold">
+      <div className="w-full grid grid-rows-1 sm:grid-flow-col justify-items-center items-center p-10 font-semibold">
         {/* left side  */}
         <div className="pb-10 sm:pb-0">
           <p>Copyright</p>

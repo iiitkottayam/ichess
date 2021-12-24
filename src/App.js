@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <div className="sticky top-0">
+      <div className="sticky top-0 w-full">
         <Navbar />
       </div>
       <Header />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-screen h-auto sm:h-screen bg-black text-white text-center px-10 sm:px-5 pb-20 sm:pb-0 pt-32 sm:pt-56 header">
+    <div className="w-full h-auto sm:h-screen bg-black text-white text-center px-10 sm:px-5 pb-20 sm:pb-0 pt-32 sm:pt-56 header">
       <p className="text-4xl sm:text-8xl xl:text-9xl font-bold ">
         i-CHESS 2022
       </p>
