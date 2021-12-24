@@ -16,7 +16,7 @@ const Header = () => {
         September 16,17 2022 | Indian Institute of Information Technology
         Kottayam
       </p>
-      <button className="bg-green-400 text-black p-3 rounded-t-xl rounded-l-xl mt-3 text-xl sm: text-2xl font-bold">
+      <button className="bg-green-400 text-black p-3 rounded-t-xl rounded-l-xl mt-3 text-xl sm:text-2xl font-bold">
         Learn More
       </button>
     </div>
