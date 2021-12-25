@@ -1,9 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  /* use this to fit image in the div  */
+  background-image: url("/src/assets/images/headerbg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  background-attachment: scroll;
 }
 .info-tile {
   background-image: linear-gradient(
@@ -15,6 +26,7 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
 .body {
   overflow-x: hidden;
 }

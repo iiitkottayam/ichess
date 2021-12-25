@@ -9,7 +9,7 @@ const Header = () => {
       <p className=" text-xl sm:text-2xl font-semibold">
         Communication, Hardware and Embedded systems security
       </p>
-      <p className="text-5xl sm:text-8xl xl:text-9xl sm:font-bold ">
+      <p className="text-5xl sm:text-8xl xl:text-9xl font-bold sm:font-extrabold  text-green-400">
         i-CHESS 2022
       </p>
       <p className="mt-2 text-lg sm:text-xl">
