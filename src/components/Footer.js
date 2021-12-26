@@ -11,7 +11,7 @@ import "../assets/styles/Map.css";
 const Footer = () => {
   const [isShown, setIsShown] = useState(false);
   return (
-    <div className="w-full bg-green-400 text-center text-black">
+    <div className="w-full bg-green-400 text-center text-black " id="footer">
       {/* contact us part of footer  */}
       <div className="w-full bg-white flex-col p-10">
         {/* contact us */}

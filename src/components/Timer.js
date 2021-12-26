@@ -18,7 +18,7 @@ const Timer = ({ setShowTimer }) => {
   }, []);
 
   return (
-    <div className="fullcontainer">
+    <div className="fullcontainer p-10">
       <div className="context">
         <p>Event Starts in</p>
       </div>
