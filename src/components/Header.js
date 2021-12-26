@@ -1,12 +1,13 @@
 import React from "react";
+import "../assets/styles/animation.css";
 import { Link } from "react-scroll";
 const Header = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen space-y-7  sm:space-y-6 bg-black text-white sm:text-center px-5 sm:px-10 pb-20 sm:pb-0 pt-32 sm:pt-40 header"
+      className="w-full h-screen space-y-7  sm:space-y-6 text-fade-in bg-black text-white sm:text-center px-5 sm:px-10 pb-20 sm:pb-0 pt-32 sm:pt-40 header"
     >
-      <p className="text-xl sm:text-2xl  font-semibold">
+      <p className="text-xl sm:text-2xl  font-semibold ">
         IEEE International Conference on
       </p>
       <p className=" text-xl sm:text-2xl font-semibold">

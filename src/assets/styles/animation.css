@@ -1,0 +1,14 @@
+.text-fade-in p {
+  animation: text-animation 1s ease-in both;
+}
+
+@keyframes text-animation {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

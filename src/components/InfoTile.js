@@ -4,10 +4,10 @@ const InfoTile = () => {
   return (
     <div
       id="info"
-      className="w-full h-max info-tile text-white text-lg sm:text-2xl font-medium p-5 sm:p-10 sm:text-center"
+      className="w-full h-max info-tile text-white text-lg sm:text-2xl text-fade-in  p-5 sm:p-10 sm:text-center font-bold"
     >
       <div className="xl:w-2/3 m-auto py-5 sm:py-10 space-y-6">
-        <p className="text-2xl sm:text-5xl font-bold text-white">
+        <p className="text-2xl sm:text-5xl font-extraboldbold text-white">
           Welcome to i-CHESS 2022
         </p>
         <p>
