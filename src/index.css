@@ -25,6 +25,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .body {
