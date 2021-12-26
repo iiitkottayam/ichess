@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-scroll";
 const Header = () => {
   return (
     <div
@@ -19,9 +19,11 @@ const Header = () => {
         September 16,17 2022 | Indian Institute of Information Technology
         Kottayam
       </p>
-      <button className="bg-green-400 text-black p-3 rounded-t-xl rounded-l-xl mt-5 text-xl sm:text-2xl font-bold">
-        Learn More
-      </button>
+      <Link to="info" smooth={true} duration={1000} offset={-100}>
+        <button className="bg-green-400 text-black p-3 font-extrabold rounded-t-xl rounded-l-xl mt-5 text-xl sm:text-2xl hover:bg-white ">
+          Learn More
+        </button>
+      </Link>
     </div>
   );
 };
