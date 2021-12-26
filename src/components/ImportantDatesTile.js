@@ -7,38 +7,38 @@ const ImportantDatesTile = () => {
         Important Dates
       </p>
       <div className="flex w-full place-content-center ">
-        <p className="w-2/3 bg-black text-white p-3">
+        <p className="w-7/12 bg-black text-white p-3">
           Submission of Full paper Deadline
         </p>
-        <p className="bg-green-400 p-3 text-black font-extrabold w-1/3">
+        <p className="bg-green-400 p-3 text-black font-extrabold w-5/12">
           31 May 2022
         </p>
       </div>
       <div className="flex w-full place-content-center">
-        <p className="w-2/3 bg-black text-white p-3">
+        <p className="w-7/12 bg-black text-white p-3">
           Notification of Paper acceptance submission
         </p>
-        <p className="bg-green-400 p-3 text-black font-extrabold w-1/3 ">
+        <p className="bg-green-400 p-3 text-black font-extrabold w-5/12 ">
           05 August 2022
         </p>
       </div>
       <div className="flex w-full place-content-center">
-        <p className="w-2/3 bg-black text-white p-3">Registration deadline</p>
-        <p className="bg-green-400 p-3 text-black font-extrabold w-1/3 ">
+        <p className="w-7/12 bg-black text-white p-3">Registration deadline</p>
+        <p className="bg-green-400 p-3 text-black font-extrabold w-5/12 ">
           10 August 2022
         </p>
       </div>
       <div className="flex w-full place-content-center">
-        <p className="w-2/3 bg-black text-white p-3">
+        <p className="w-7/12 bg-black text-white p-3">
           Deadline to upload Recorded video presentation
         </p>
-        <p className="bg-green-400 p-3 text-black font-extrabold w-1/3 ">
+        <p className="bg-green-400 p-3 text-black font-extrabold w-5/12 ">
           30 August 2022
         </p>
       </div>
       <div className="flex w-full place-content-center">
-        <p className="w-2/3 bg-black text-white p-3">Conference dates</p>
-        <p className="bg-green-400 p-3 text-black font-extrabold w-1/3 ">
+        <p className="w-7/12 bg-black text-white p-3">Conference dates</p>
+        <p className="bg-green-400 p-3 text-black font-extrabold w-5/12 ">
           15 September 2022
         </p>
       </div>

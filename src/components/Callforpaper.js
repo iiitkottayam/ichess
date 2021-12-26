@@ -5,7 +5,7 @@ import TrackCard from "./TrackCard";
 import trackdata from "../assets/data/trackdata.json";
 const Callforpaper = () => {
   return (
-    <div className="w-full p-10" id="authors">
+    <div className="w-full p-5 sm:p-10" id="authors">
       <p className="text-3xl sm:text-5xl font-extrabold">Call for papers</p>
       <Carousel
         className="w-11/12 h-auto bg-black items-center m-auto mt-10"
