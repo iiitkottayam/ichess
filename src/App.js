@@ -6,6 +6,7 @@ import WhenWhere from "./components/WhenWhere";
 import TopicsTile from "./components/TopicsTile";
 import Timer from "./components/Timer";
 import ImportantDatesTile from "./components/ImportantDatesTile";
+import Callforpaper from "./components/Callforpaper";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <TopicsTile />
       <Timer />
       <ImportantDatesTile />
+      <Callforpaper />
       <Footer />
     </div>
   );

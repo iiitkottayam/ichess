@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Security and Privacy",
+    "disc": "Security and Privacy challenges in big data, Cryptography, Secure systems, Data privacy, eCrime and malware, Information Security, Communication Security, Biometric--based Security, Cryptography systems, Embedded Security, Data Analytics for Security and Privacy, Integrated Security Design Schemes, Surveillance Cyber Forensic Digital forensic Malware Analysis Cyber Security Cyber security and machine learning Big data security and analytics Cloud-edge security and privacy Malware detection and remediation Lightweight cryptography Post-quantum security"
+  },
+  {
+    "id": 2,
+    "title": "Communication & Networking",
+    "disc": "Green Communications, Wireless Communications and Networks, Optical Communications and Networks, Modulation and Coding Techniques, Ad-hoc, Mesh, and Sensor Networks, Vehicular Networks, Cellular Networks."
+  },
+  {
+    "id": 3,
+    "title": "Computational Intelligence",
+    "disc": "Data Mining, Neural Networks and Deep Learning, Metaheuristic algorithms, Machine Learning, Business Intelligence, Human-Computer Interface, Crowd Sourcing & Social Intelligence."
+  },
+  {
+    "id": 4,
+    "title": "Robotics, Control, Instrumentation, and Automation",
+    "disc": "Humanoid robots, Mobile robotics, Space and underwater robots, Control system modeling, Intelligent control, Neuro-control, Fuzzy control, and their applications, Networked control systems, Instrumentation systems, Industrial automation"
+  },
+  {
+    "id": 5,
+    "title": "Biomedical Engineering and Healthcare Technologies",
+    "disc": "Biomedical Signal Processing and Instrumentation, Wearable Sensors for Health care monitoring, Biomedical Imaging, Micro/Nano-bioengineering, and Cellular/Tissue Engineering & Biomaterials, Computational Systems, Modeling, and Simulation in Medicine, Biomedical and Healt"
+  }
+]
