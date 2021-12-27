@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   AiOutlineMail,
   AiFillInstagram,
@@ -6,7 +6,10 @@ import {
   AiOutlineInstagram,
   AiFillFacebook,
 } from "react-icons/ai";
+import mapiiit from "../assets/images/mapiiit.png";
+import "../assets/styles/Map.css";
 const Footer = () => {
+  const [isShown, setIsShown] = useState(false);
   return (
     <div className="w-full bg-green-400 text-center text-black " id="footer">
       {/* contact us part of footer  */}
@@ -32,7 +35,26 @@ const Footer = () => {
         </div>
       </div>
       {/* map comes here */}
-      <div></div>
+      <div className="map-container">
+        <img
+          src={mapiiit}
+          alt="Map Location - IIIT Kottayam"
+          className="image-map"
+        ></img>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.google.com/maps/place/Indian+Institute+of+Information+Technology+(IIIT)+Kottayam/@9.7440374,76.6497433,13.09z/data=!4m9!1m2!2m1!1siiit+kottayam!3m5!1s0x3b07ce23bc170053:0x8757971e61eb21dd!8m2!3d9.7551464!4d76.6500117!15sCg1paWl0IGtvdHRheWFtkgEKdW5pdmVyc2l0eQ"
+        >
+          <button
+            className="map-button"
+            onMouseEnter={() => setIsShown(true)}
+            onMouseLeave={() => setIsShown(false)}
+          >
+            {isShown && "View on Map"}
+          </button>
+        </a>
+      </div>
       {/* credits */}
       <div className="w-full grid grid-rows-1 sm:grid-flow-col justify-items-center items-center p-10 font-semibold">
         {/* left side  */}
