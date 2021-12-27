@@ -40,3 +40,9 @@
 .map-container:hover {
   background-color: rgba(83, 83, 83, 0.336);
 }
+
+@media screen and (max-width: 500px) {
+  .map-button {
+    font-size: 2rem;
+  }
+}

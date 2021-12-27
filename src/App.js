@@ -7,6 +7,7 @@ import TopicsTile from "./components/TopicsTile";
 import Timer from "./components/Timer";
 import ImportantDatesTile from "./components/ImportantDatesTile";
 import Callforpaper from "./components/Callforpaper";
+import Prices from "./components/Prices";
 import { useState } from "react";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Callforpaper />
       <Timer />
       <ImportantDatesTile />
+      <Prices />
       <Footer />
     </div>
   );
