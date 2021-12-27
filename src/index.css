@@ -12,6 +12,8 @@
   background-image: url("/src/assets/images/headerbg4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
   background-attachment: scroll;
 }
 .topics-bg {
@@ -31,6 +33,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position-y: center;
+  background-position-x: right;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
 }
