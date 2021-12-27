@@ -1,21 +1,22 @@
 import React from "react";
+import "../assets/styles/animation.css";
 import { Link } from "react-scroll";
 const Header = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen space-y-7  sm:space-y-6 bg-black text-white sm:text-center px-5 sm:px-10 pb-20 sm:pb-0 pt-32 sm:pt-40 header"
+      className="w-full h-screen space-y-7  sm:space-y-6  bg-black text-white sm:text-center px-5 sm:px-10 pb-20 sm:pb-0 pt-32 sm:pt-40 header"
     >
-      <p className="text-xl sm:text-2xl  font-semibold">
+      <p className="text-xl sm:text-2xl  font-semibold text-fade-in-1 ">
         IEEE International Conference on
       </p>
-      <p className=" text-xl sm:text-2xl font-semibold">
+      <p className=" text-xl sm:text-2xl font-semibold text-fade-in-1">
         Communication, Hardware and Embedded systems security
       </p>
-      <p className="text-5xl sm:text-8xl xl:text-9xl font-bold sm:font-extrabold  text-green-400">
+      <p className="text-5xl sm:text-8xl xl:text-9xl font-bold sm:font-extrabold text-fade-in-2 text-green-400">
         i-CHESS 2022
       </p>
-      <p className="mt-2 text-lg sm:text-xl">
+      <p className="mt-2 text-lg sm:text-xl text-fade-in-1">
         September 16,17 2022 | Indian Institute of Information Technology
         Kottayam
       </p>
