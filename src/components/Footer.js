@@ -13,23 +13,25 @@ const Footer = () => {
       id="footer"
     >
       {/* contact us part of footer  */}
-      <div className="w-full bg-white flex-col p-5 sm:p-10 ">
+      <div className="w-full bg-black text-white flex-col p-5 sm:p-10 ">
         {/* contact us */}
-        <p className="font-bold text-3xl sm:text-5xl">CONTACT US</p>
+        <p className="font-bold text-3xl sm:text-5xl text-green-400">
+          CONTACT US
+        </p>
         {/* Green line */}
-        <div className="h-1 w-1/12 bg-green-400 m-auto mt-2"> </div>
+        <div className="h-1 w-1/12 bg-white m-auto mt-2"> </div>
         {/* Emails section */}
         <div className="grid grid-rows-1 sm:grid-flow-col mt-5 text-lg">
           <div className="py-5 sm:py-0">
-            <AiOutlineMail className="m-auto text-4xl" />
+            <AiOutlineMail className="m-auto text-4xl text-green-400" />
             <p>xyz@iiitkottayam.ac.in</p>
           </div>
           <div className="py-5 sm:py-0">
-            <AiOutlineMail className="m-auto text-4xl" />
+            <AiOutlineMail className="m-auto text-4xl text-green-400" />
             <p>xyz@iiitkottayam.ac.in</p>
           </div>
           <div className="py-5 sm:py-0">
-            <AiOutlineMail className="m-auto text-4xl" />
+            <AiOutlineMail className="m-auto text-4xl text-green-400" />
             <p>xyz@iiitkottayam.ac.in</p>
           </div>
         </div>

@@ -1,9 +1,26 @@
-.text-fade-in p {
+.text-fade-in-1 {
   animation: text-animation 1s ease-in both;
+}
+.text-fade-in-2 {
+  animation: text-animation-2 2s ease-in both;
 }
 
 @keyframes text-animation {
   0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes text-animation-2 {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  50% {
     transform: translateY(-20px);
     opacity: 0;
   }

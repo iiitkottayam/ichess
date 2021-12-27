@@ -8,7 +8,7 @@ const Navbar = () => {
   return menuOpen ? (
     <SideMenu setmenuOpen={setmenuOpen} />
   ) : (
-    <div className="w-full h-20 bg-black px-5 sm:px-10  flex justify-between items-center text-white absolute top-0 z-50 border-b-2 border-solid border-green-400">
+    <div className="w-full h-20 bg-black px-5 sm:px-10  flex justify-between items-center text-white absolute top-0 z-50 border-b-4 border-solid border-green-400">
       <p className="font-extrabold text-2xl self-center">iChess</p>
       <GiHamburgerMenu
         className="sm:hidden justify-end text-3xl"
