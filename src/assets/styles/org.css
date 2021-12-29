@@ -1,0 +1,44 @@
+.org_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  padding: 2% 0%;
+  width: 100%;
+}
+
+.orgs {
+  /* display: grid; */
+  grid-gap: 0.5rem;
+  /* width: 90%; */
+  /* float: left; */
+  /* padding: 0 10px; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  margin-top: 1.2rem;
+}
+
+.org-out {
+  position: relative;
+  /* box-shadow: 0 4px 8px 0 rgba(4, 51, 0, 0.2); */
+  /* padding: 0.2rem; */
+  text-align: center;
+  /* background-color: #ececec25; */
+  /* font-family: "Times New Roman", serif; */
+  /* letter-spacing: 5px; */
+  font-size: 1.4rem;
+  padding-top: 1.5rem;
+  /* text-decoration: underline;
+  text-underline-offset: 0.2rem; */
+  font-weight: bolder;
+  color: #34d399;
+  text-shadow: 0 1px 0 #5d9983;
+}
+
+.org-in {
+  color: white;
+  text-align: center;
+}

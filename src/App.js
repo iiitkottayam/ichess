@@ -8,6 +8,7 @@ import Timer from "./components/Timer";
 import ImportantDatesTile from "./components/ImportantDatesTile";
 import Callforpaper from "./components/Callforpaper";
 import Prices from "./components/Prices";
+import Committee from "./components/Committee";
 import { useState } from "react";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Timer />
       <ImportantDatesTile />
       <Prices />
+      <Committee />
       <Footer />
     </div>
   );
