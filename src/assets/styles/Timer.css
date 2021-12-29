@@ -21,7 +21,7 @@
   font-weight: bold;
   text-align: center;
   padding-top: 0.5rem;
-  border-top: 1px solid #5a5a5a7a;
+  /* border-top: 1px solid #5a5a5a7a; */
 }
 
 @media only screen and (max-width: 768px) {
